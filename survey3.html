@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>설문지</title>
+    <style>
+        html, body{margin: 0; padding: 0; height: 100%;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>설문지</h1>
+        <p> 소프트웨어 기술에 대한 의견을 들어볼까용? 많은 참여 부탁하움!</p>
+        <hr>
+    </header>
+    <section>
+        <article>
+            <form>
+            학년 
+            <input type="radio" id="grade" name="gusigi" value="1">
+            <label for="grade">1학년</label>
+            <input type="radio" id="grade2" name="gusigi" value="2">
+            <label for="grade2">2학년</label>
+            <input type="radio" id="grade3" name="gusigi" value="3">
+            <label for="grade3">3학년</label>
+            </form>
+            
+        </article>
+        <article>
+            <form>
+                성별
+                <input type="radio" id="gender1" name="jusigi" value="1">
+                <label for="gender1">남</label>
+                <input type="radio" id="gender2" name="jusigi" value="2">
+                <label for="gender2">여</label>
+            </form>
+        </article>
+        <article>
+            관심분야 <input type="text" list="death">
+            <datalist id="death">
+                <option value="모바일 소프트웨어">
+                <option value="컴퓨터 소프트웨어">
+                <option value="기타">
+            </datalist>
+        </article>
+        <article>
+            <form>
+                진로 <input type="checkbox" value="1"> 개발
+                 <input type="checkbox" value="2"> 기획
+                 <input type="checkbox" value="3"> 영업
+                 <input type="checkbox" value="4"> 창업
+            </form><br>
+        </article>
+        <article>
+            남기고 싶은 말 <textarea rows="5" cols="20"></textarea>
+        </article>
+    </section>
+    
+    
+</body>
+</html>
+
